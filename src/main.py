@@ -36,9 +36,6 @@ def runGame ():
         atualizaTela(tela, config, dots, line, squares, targets, som)
         
 
-    # Encerrando o Pygame
-    pygame.quit()
-    sys.exit()
-
 if __name__ == "__main__":
     runGame()
+    
